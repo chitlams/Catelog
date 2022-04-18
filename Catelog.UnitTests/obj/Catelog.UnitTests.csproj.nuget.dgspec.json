@@ -1,0 +1,163 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.UnitTests/Catelog.UnitTests.csproj": {}
+  },
+  "projects": {
+    "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/Catelog.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/Catelog.Api.csproj",
+        "projectName": "Catelog.Api",
+        "projectPath": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/Catelog.Api.csproj",
+        "packagesPath": "/Users/sreenivasulu.chitlam/.nuget/packages/",
+        "outputPath": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sreenivasulu.chitlam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.MongoDb": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "MongoDb.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.UnitTests/Catelog.UnitTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.UnitTests/Catelog.UnitTests.csproj",
+        "projectName": "Catelog.UnitTests",
+        "projectPath": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.UnitTests/Catelog.UnitTests.csproj",
+        "packagesPath": "/Users/sreenivasulu.chitlam/.nuget/packages/",
+        "outputPath": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.UnitTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sreenivasulu.chitlam/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/Catelog.Api.csproj": {
+                "projectPath": "/Users/sreenivasulu.chitlam/Documents/Practice/Catelog/Catelog.Api/Catelog.Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.17.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
